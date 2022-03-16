@@ -25,8 +25,6 @@ app.use(express.urlencoded({extended: true}))
 
 app.use('/select', routes.select)
 
-app.get('/', (req, res)=>{
-    res.status(200).json()
-})
 
-app.listen(process.env.PORT, console.log(`https://localhost:${process.env.PORT}`))
+
+app.listen(process.env.PORT, console.log(`https://localhost:4242`))

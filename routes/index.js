@@ -1,2 +1,2 @@
 const select = require('./select')
-module.exports = {select}
+module.exports = { select }
